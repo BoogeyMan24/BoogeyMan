@@ -1,4 +1,4 @@
-const backgroundNum = Math.floor(Math.random() * (101 - 1) + 1); // I’m adding .5 here so the flicker isn’t too obnoxious
+const backgroundNum = Math.floor(Math.random() * (11 - 1) + 1); // I’m adding .5 here so the flicker isn’t too obnoxious
 console.log(backgroundNum);
 
 window.onload = function(){
@@ -8,7 +8,7 @@ window.onload = function(){
 
     if(backgroundNum == 1)
     {
-        background.style.setProperty('--background', "url('../images/amongus.png')");
+        background.style.setProperty('--background', "url('../images/imposter.png')");
     }
     else if(backgroundNum >= 2)
     {
