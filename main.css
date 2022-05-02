@@ -60,7 +60,7 @@ h2 {
 }
 body {
     background-color: black;
-    background-image: var(--background);
+    background-image: url('../images/susplanet.png');
     background-size: cover;
     background-repeat: no-repeat;
 }
