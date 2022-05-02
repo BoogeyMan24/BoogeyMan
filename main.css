@@ -2,7 +2,7 @@ h1 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 7vw;
-    padding-top: 30px;
+    padding-top: 2vw;
 }
 .gradient-text {
     /* Fallback: Set a background color. */
@@ -32,9 +32,9 @@ h1 {
     background-color: #242527;
     position: relative;
     margin: auto;
-    top: 6vw;
-    width: 75%;
-    height: 40%;
+    top: 9vw;
+    width: 75vw;
+    height: 40vh;
     border-radius: 150px;
     z-index: -1;
     box-shadow: 0 0 0 10px rgb(19, 19, 19);
@@ -55,13 +55,18 @@ h1 {
 h2 {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
+    position: relative;
     font-size: 3vw;
-    height: 4vw;
+    height: 10vh;
+    top: -2.5vw;
+    
 }
 body {
     background-color: black;
-    background-image: url('../images/susplanet.png');
+    background-image: var(--background);
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
 }
 header {
@@ -80,7 +85,7 @@ nav li {
     margin-right: 30px;
 }
 a {
-    color: #33353a;
+    color: #424347;
     font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     position: relative;
@@ -109,6 +114,7 @@ a:hover {
         background-clip: text;
     -moz-text-fill-color: transparent;
 }
+
 :root
 {
     --background: url('../images/susplanet.png');
