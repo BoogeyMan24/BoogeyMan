@@ -1,0 +1,115 @@
+h1 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 7vw;
+    padding-top: 30px;
+}
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: #1D2791;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #1D2791, #8312A5, #1D2791, #8312A5, #1D2791, #8312A5);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 200%;
+    background-repeat: repeat;
+
+    animation: gradient 30s ease infinite;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+        background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.main-text
+{
+    background-color: #242527;
+    position: relative;
+    margin: auto;
+    top: 6vw;
+    width: 75%;
+    height: 40%;
+    border-radius: 150px;
+    z-index: -1;
+    box-shadow: 0 0 0 10px rgb(19, 19, 19);
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3vw;
+    height: 4vw;
+}
+body {
+    background-color: black;
+    background-image: var(--background);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #151718;
+    box-shadow: 0 0 0 2px rgb(22, 22, 22);
+    height: 48px;
+    border-radius: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+a {
+    color: #33353a;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 5px;
+    left: 30px;
+    font-size: 32px;
+}
+a:hover {
+    background-color: black;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #1D2791, #8312A5);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 200%;
+    background-repeat: repeat;
+
+    animation: gradient 15s ease infinite;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+        background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+:root
+{
+    --background: url('../images/susplanet.png');
+}
