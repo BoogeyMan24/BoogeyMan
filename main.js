@@ -1,4 +1,4 @@
-const backgroundNum = Math.floor(Math.random() * (1001 - 1) + 1); // I’m adding .5 here so the flicker isn’t too obnoxious
+const backgroundNum = Math.floor(Math.random() * (101 - 1) + 1); // I’m adding .5 here so the flicker isn’t too obnoxious
 console.log(backgroundNum);
 
 window.onload = function(){
