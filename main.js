@@ -8,10 +8,10 @@ window.onload = function(){
 
     if(backgroundNum == 1)
     {
-        background.style.setProperty('--background', "url('./images/imposter.png')");
+        background.style.setProperty('--background', "url('BoogeyMan24/images/imposter.png')");
     }
     else if(backgroundNum >= 2)
     {
-        background.style.setProperty('--background', "url('./images/susplanet.png')");
+        background.style.setProperty('--background', "url('BoogeyMan24/images/susplanet.png')");
     }
 };
