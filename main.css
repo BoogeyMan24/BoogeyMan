@@ -197,6 +197,11 @@ footer
         margin-right: 50px;
     }
 
+    a
+    {
+        color: #5d5e62;
+    }
+
     .main-background-text
     {
         background-color: rgba(39, 41, 43, 0);
