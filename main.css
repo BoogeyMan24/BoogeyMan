@@ -1,82 +1,15 @@
-html, body {overflow:hidden}
-h1.title-text {
-    text-align: center;
+:root
+{
+    --background: url('../images/susplanet.png');
+}
+
+html
+{
+    overflow: hidden;
+} 
+
+body {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 8vw;
-    padding-top: 2vh;
-}
-
-h1.credits-h1
-{
-    color: black;
-}
-h2.credits-h2
-{
-    color: black;
-}
-h3.credits-h3
-{
-    color: black;
-    
-}
-.gradient-text {
-    /* Fallback: Set a background color. */
-    background-color: #1D2791;
-    
-    /* Create the gradient. */
-    background-image: linear-gradient(45deg, #1D2791, #8312A5, #1D2791, #8312A5, #1D2791, #8312A5);
-    
-    /* Set the background size and repeat properties. */
-    background-size: 200%;
-    background-repeat: repeat;
-
-    animation: gradient 30s ease infinite;
-  
-    /* Use the text as a mask for the background. */
-    /* This will show the gradient as a text color rather than element bg. */
-    -webkit-background-clip: text;
-        background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-background-clip: text;
-        background-clip: text;
-    -moz-text-fill-color: transparent;
-}
-
-.main-text
-{
-    background-color: #242527;
-    position: relative;
-    margin: auto;
-    top: 9vw;
-    width: 65vw;
-    height: 20vw;
-    border-radius: 150px;
-    z-index: -1;
-    box-shadow: 0 0 0 10px rgb(19, 19, 19);
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
-h2.main-h2 {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    position: relative;
-    font-size: 3vw;
-    height: 10vh;
-    top: -2.5vw;
-    
-}
-body.main-body {
     background-color: black;
     background-image: var(--background);
     background-size: cover;
@@ -85,12 +18,22 @@ body.main-body {
     width: 100vw;
     background-repeat: no-repeat;
 }
+
+
+.header-wrap
+{
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 header {
-    background-color: #151718;
+    background-color: #1c1e1f;
     box-shadow: 0 0 0 2px rgb(22, 22, 22);
     height: 5.5vh;
-    width: 99vw;
-    border-radius: 10px;
+    width: 100%;
+    padding-right: 20px;
+    border-radius: 15px;
 }
 nav ul {
     margin: 0;
@@ -103,7 +46,6 @@ nav li {
 }
 a {
     color: #424347;
-    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
     position: relative;
     top: 0.5vh;
@@ -132,30 +74,146 @@ a:hover {
     -moz-text-fill-color: transparent;
 }
 
-h3.main-h3
+.main-background-text-wrap
 {
-    position: relative;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(76, 76, 76);
-    top: 24vw;
-}
-/*
-.invis
-{
-    font-size: 600%;
-    opacity: 0;
-}
-
-.section
-{
-    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100vw;
-    height: 40vh;
+    height: 100vh;
 }
-*/
 
-:root
+.main-background-text
 {
-    --background: url('../images/susplanet.png');
+    background-color: rgb(39, 41, 43);
+    box-shadow: 0 0 0 10px rgb(19, 19, 19);
+    position: relative;
+    border-radius: 150px;
+    top: -5vw;
+    width: 65vw;
+    height: 20vw;
+    display: flex;
+    justify-content: center;
+}
+
+h1.title-text {
+    text-align: center;
+    position: relative;
+    top: -5vw;
+    font-size: 8vw;
+    padding-top: 2vh;
+}
+
+h2.main-h2 {
+    text-align: center;
+    position: relative;
+    font-size: 3vw;
+    top: -8vw;
+}
+
+footer
+{
+    position: absolute;
+    bottom: 5px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.footer
+{
+    color: rgb(145, 145, 145);
+    position: relative;
+    font-size: 2.5vh;
+}
+
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: #1D2791;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #2934a8, #8312A5, #1D2791, #8312A5, #1D2791, #8312A5);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 200%;
+    background-repeat: repeat;
+
+    animation: gradient 30s ease infinite;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+        background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media (orientation: portrait)
+{
+    body {
+        background-color: black;
+        background-image: var(--background);
+        background-size: cover;
+        background-position: -700px;
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+    }
+
+    header {
+        background-color: #151718;
+        box-shadow: 0 0 0 2px rgb(22, 22, 22);
+        height: 5.5vh;
+        width: 100%;
+        padding-right: 20px;
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .main-background-text
+    {
+        background-color: rgba(39, 41, 43, 0);
+        box-shadow: 0 0 0 10px rgba(19, 19, 19, 0);
+        position: relative;
+        border-radius: 150px;
+        top: -5vw;
+        width: 65vw;
+        height: 20vw;
+        display: flex;
+        justify-content: center;
+    }
+
+    h1.title-text {
+        text-align: center;
+        position: relative;
+        top: -5vw;
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 12vw;
+        margin: -20vw;
+        padding: 0;
+    }
+
+    h2.main-h2 {
+        text-align: center;
+        font-family: 'Josefin Sans', sans-serif;
+        position: relative;
+        font-size: 3vw;
+        top: 14vw;
+        color: rgb(162, 162, 162);
+    }
+
 }

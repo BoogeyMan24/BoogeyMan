@@ -1,0 +1,82 @@
+h1.credits-h1
+{
+    color: black;
+}
+h2.credits-h2
+{
+    color: black;
+}
+h3.credits-h3
+{
+    color: black; 
+}
+
+.gradient-text {
+    /* Fallback: Set a background color. */
+    background-color: #1D2791;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #1D2791, #8312A5, #1D2791, #8312A5, #1D2791, #8312A5);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 200%;
+    background-repeat: repeat;
+
+    animation: gradient 30s ease infinite;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+        background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+header {
+    background-color: #151718;
+    box-shadow: 0 0 0 2px rgb(22, 22, 22);
+    height: 5.5vh;
+    width: 99vw;
+    border-radius: 10px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+}
+a {
+    color: #424347;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    position: relative;
+    top: 0.5vh;
+    left: 30px;
+    font-size: 4vh;
+}
+a:hover {
+    background-color: black;
+    
+    /* Create the gradient. */
+    background-image: linear-gradient(45deg, #1D2791, #8312A5);
+    
+    /* Set the background size and repeat properties. */
+    background-size: 200%;
+    background-repeat: repeat;
+
+    animation: gradient 15s ease infinite;
+  
+    /* Use the text as a mask for the background. */
+    /* This will show the gradient as a text color rather than element bg. */
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-background-clip: text;
+        background-clip: text;
+    -moz-text-fill-color: transparent;
+}
