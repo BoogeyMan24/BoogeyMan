@@ -235,7 +235,7 @@ footer
     }
     footer
     {
-        position: absolute;
+        position: sticky;
         bottom: 120px;
         width: 100vw;
         display: flex;
