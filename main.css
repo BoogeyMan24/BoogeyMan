@@ -6,7 +6,7 @@
 html
 {
     overflow: hidden;
-} 
+}
 
 body {
     font-family: 'Josefin Sans', sans-serif;
@@ -164,7 +164,15 @@ footer
 
 @media (orientation: portrait)
 {
+    html, body {
+        overflow-x: hidden;
+    }
     body {
+        position: relative;
+    }
+
+    body {
+        --background: "url(images/susplanet-mobile.png)";
         background-color: black;
         background-image: var(--background);
         background-size: cover;
