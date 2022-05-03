@@ -166,6 +166,7 @@ footer
 {
     html, body {
         overflow-x: hidden;
+        overflow-y: hidden;
     }
     body {
         position: relative;
@@ -191,6 +192,11 @@ footer
         display: flex;
         justify-content: center;
     }
+    nav li {
+        display: inline-block;
+        margin-right: 50px;
+    }
+
     .main-background-text
     {
         background-color: rgba(39, 41, 43, 0);
@@ -222,5 +228,12 @@ footer
         top: 14vw;
         color: rgb(162, 162, 162);
     }
-
+    footer
+    {
+        position: absolute;
+        bottom: 120px;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+    }
 }
