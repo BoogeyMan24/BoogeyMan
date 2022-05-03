@@ -172,11 +172,10 @@ footer
     }
 
     body {
-        --background: "url(images/susplanet-mobile.png)";
         background-color: black;
-        background-image: var(--background);
+        background-image: url('images/susplanet-mobile.png');
         background-size: cover;
-        background-position: -700px;
+        background-position: center;
         height: 100vh;
         width: 100vw;
         background-repeat: no-repeat;
@@ -208,10 +207,10 @@ footer
     h1.title-text {
         text-align: center;
         position: relative;
-        top: -5vw;
+        top: -19vw;
         font-family: 'Josefin Sans', sans-serif;
-        font-size: 12vw;
-        margin: -20vw;
+        font-size: 15vw;
+        margin: -33vw;
         padding: 0;
     }
 
@@ -219,7 +218,7 @@ footer
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
         position: relative;
-        font-size: 3vw;
+        font-size: 4vw;
         top: 14vw;
         color: rgb(162, 162, 162);
     }
