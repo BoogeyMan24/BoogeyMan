@@ -4,7 +4,7 @@ let nextLetter = typeString[0];
 let intLetter = 0;
 
 window.onload = function(){
-    console.log("Epic sus planet credits: (Fengzi) Chinese Dora the explora or whatever this means: 疯子鸭")
+    console.log("Epic sus planet background credits: (Fengzi) Chinese Dora the explora or whatever this means: 疯子鸭")
 
     const background = document.getElementById('background');
 
