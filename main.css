@@ -185,10 +185,12 @@ footer
     header {
         background-color: #151718;
         box-shadow: 0 0 0 2px rgb(22, 22, 22);
+        position: sticky;
+        top: 5px;
         height: 5.5vh;
         width: 100%;
         padding-right: 20px;
-        border-radius: 15px;
+        border-radius: 150px;
         display: flex;
         justify-content: center;
     }
@@ -229,16 +231,14 @@ footer
         text-align: center;
         font-family: 'Josefin Sans', sans-serif;
         position: relative;
-        font-size: 4vw;
+        font-size: 5vw;
         top: 14vw;
         color: rgb(162, 162, 162);
     }
-    footer
+    .footer
     {
         position: sticky;
-        bottom: 120px;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
+        bottom: 5px;
+        text-align: center;
     }
 }
