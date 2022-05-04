@@ -43,7 +43,7 @@ header {
     height: 5.5vh;
     width: 100%;
     padding-right: 20px;
-    border-radius: 15px;
+    border-radius: 100vw;
 }
 nav ul {
     margin: 0;
@@ -102,8 +102,6 @@ a:hover {
     top: -5vw;
     width: 65vw;
     height: 20vw;
-    /* display: flex;
-    justify-content: center; */
 }
 
 h1.title-text {
@@ -136,6 +134,19 @@ h2.main-h2 {
     z-index: 100;
 }
 
+.credits-text-wrap
+{
+    position: relative;
+    left: 12.5vw;
+    top: 3vw;
+    width: 0;
+    height: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
 .amongus:hover
 {
     width: 28vw;
@@ -144,11 +155,11 @@ h2.main-h2 {
     color: black;
 }
 
-.credits-text-wrap
+.amongus:hover > .credits-text-wrap
 {
     position: relative;
     left: 12.5vw;
-    top: 3vw;
+    top: 4vw;
     width: 15vw;
     height: 6vw;
     margin: 0;
@@ -159,6 +170,7 @@ h2.main-h2 {
 
 .credits-text
 {
+    margin: 0;
     font-size: 1.6vw;
 }
 
@@ -234,7 +246,7 @@ footer
         background-image: url('images/susplanet-mobile.png');
         background-size: cover;
         background-position: center;
-        height: 100vh;
+        height: 90vh;
         width: 100vw;
         background-repeat: no-repeat;
     }
@@ -274,6 +286,15 @@ footer
         justify-content: center;
     }
 
+    .main-background-text-wrap
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 85vh;
+    }
+
     h1.title-text {
         text-align: center;
         position: relative;
@@ -307,7 +328,7 @@ footer
 
     .footer
     {
-        position: sticky;
+        position: relative;
         bottom: 5px;
         text-align: center;
     }
