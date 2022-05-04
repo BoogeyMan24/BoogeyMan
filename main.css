@@ -3,11 +3,13 @@
     --background: url('images/susplanet.png');
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection 
+{
     background: rgba(104, 110, 186, 0.2);
 }
   
-::selection {
+::selection 
+{
     background: rgba(104, 110, 186, 0.2);
 }
 
