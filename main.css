@@ -56,7 +56,7 @@ a:hover {
     background-color: black;
     
     /* Create the gradient. */
-    background-image: linear-gradient(45deg, #1D2791, #8312A5);
+    background-image: linear-gradient(45deg, #3845cf, #8312A5);
     
     /* Set the background size and repeat properties. */
     background-size: 200%;
@@ -132,7 +132,7 @@ footer
     background-color: #1D2791;
     
     /* Create the gradient. */
-    background-image: linear-gradient(45deg, #2934a8, #8312A5, #1D2791, #8312A5, #1D2791, #8312A5);
+    background-image: linear-gradient(45deg, #3845cf, #8312A5, #3845cf, #8312A5, #3845cf, #8312A5);
     
     /* Set the background size and repeat properties. */
     background-size: 200%;
