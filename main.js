@@ -30,6 +30,11 @@ document.addEventListener('keydown', function(event) {
             intLetter = 0;
         }
     }
+    else if(event.key == 'c')
+    {
+        nextLetter = typeString[1];
+        intLetter = 1;
+    }
     else
     {
         nextLetter = typeString[0];

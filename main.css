@@ -259,7 +259,7 @@ footer
         height: 5.5vh;
         width: 100%;
         padding-right: 20px;
-        border-radius: 150px;
+        border-radius: 4000px;
         display: flex;
         justify-content: center;
     }
