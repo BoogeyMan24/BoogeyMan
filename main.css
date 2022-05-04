@@ -98,7 +98,7 @@ a:hover {
     background-color: rgb(39, 41, 43);
     box-shadow: 0 0 0 10px rgb(19, 19, 19);
     position: relative;
-    border-radius: 150px;
+    border-radius: 100vw;
     top: -5vw;
     width: 65vw;
     height: 20vw;
