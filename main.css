@@ -92,8 +92,8 @@ a:hover {
     top: -5vw;
     width: 65vw;
     height: 20vw;
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
 }
 
 h1.title-text {
@@ -109,6 +109,23 @@ h2.main-h2 {
     position: relative;
     font-size: 3vw;
     top: -8vw;
+}
+
+.amongus
+{
+    background-image: url('images/amongus-sitting.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: -5vw;
+    left: -2vw;
+    width: 12vw;
+    height: 12vw;
+}
+
+.amongus:hover
+{
+    
 }
 
 footer
@@ -135,10 +152,10 @@ footer
     background-image: linear-gradient(45deg, #3845cf, #8312A5, #3845cf, #8312A5, #3845cf, #8312A5);
     
     /* Set the background size and repeat properties. */
-    background-size: 200%;
+    background-size: 300%;
     background-repeat: repeat;
 
-    animation: gradient 30s ease infinite;
+    animation: gradient 20s ease infinite;
   
     /* Use the text as a mask for the background. */
     /* This will show the gradient as a text color rather than element bg. */
@@ -209,7 +226,7 @@ footer
         background-color: rgba(39, 41, 43, 0);
         box-shadow: 0 0 0 10px rgba(19, 19, 19, 0);
         position: relative;
-        border-radius: 150px;
+        border-radius: 10vw;
         top: -5vw;
         width: 65vw;
         height: 20vw;
@@ -235,6 +252,19 @@ footer
         top: 14vw;
         color: rgb(162, 162, 162);
     }
+
+    .amongus
+    {
+        background-image: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: -5vw;
+        left: -2vw;
+        width: 12vw;
+        height: 12vw;
+    }
+
     .footer
     {
         position: sticky;
