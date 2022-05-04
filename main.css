@@ -3,6 +3,14 @@
     --background: url('images/susplanet.png');
 }
 
+::-moz-selection { /* Code for Firefox */
+    background: rgba(104, 110, 186, 0.2);
+}
+  
+::selection {
+    background: rgba(104, 110, 186, 0.2);
+  }
+
 html
 {
     overflow: hidden;
@@ -113,19 +121,49 @@ h2.main-h2 {
 
 .amongus
 {
-    background-image: url('images/amongus-sitting.png');
-    background-size: cover;
+    background-image: url('images/amongus-sitting-textField.png');
+    background-size: 28vw 15vw;
     background-repeat: no-repeat;
+    background-position: bottom left;
     position: absolute;
+    color: rgba(0, 0, 0, 0);
     top: -5vw;
     left: -2vw;
-    width: 12vw;
+    width: 10vw;
     height: 12vw;
+    z-index: 100;
 }
 
 .amongus:hover
 {
+    width: 28vw;
+    height: 15vw;
+    top: -8vw;
+    color: black;
+}
 
+.credits-text-wrap
+{
+    position: relative;
+    left: 12.5vw;
+    top: 3vw;
+    width: 15vw;
+    height: 6vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.credits-text
+{
+    font-size: 1.6vw;
+}
+
+.wave
+{
+    color: rgba(0, 0, 0, 0);
+    background-color: transparent;
 }
 
 footer
