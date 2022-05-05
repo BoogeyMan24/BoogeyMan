@@ -23,14 +23,14 @@ document.addEventListener('keydown', function(event) {
     if(event.key == nextLetter) {
         intLetter++;
         nextLetter = typeString[intLetter];
-        if(intLetter >= 7)
+        if(intLetter >= typeString.length)
         {
             location.href = 'credits.html';
             nextLetter = typeString[0];
             intLetter = 0;
         }
     }
-    else if(event.key == 'c')
+    else if(event.key == typeString[0])
     {
         nextLetter = typeString[1];
         intLetter = 1;
