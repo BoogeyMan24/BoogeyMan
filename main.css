@@ -249,13 +249,18 @@ footer
         background-repeat: no-repeat;
     }
 
+    .header-wrap
+    {
+        padding-left: 5px;
+    }
+
     header {
         background-color: #151718;
         box-shadow: 0 0 0 2px rgb(22, 22, 22);
         position: sticky;
         top: 5px;
         height: 5.5vh;
-        width: 100%;
+        width: 98%;
         border-radius: 4000px;
         display: flex;
         justify-content: center;
@@ -270,6 +275,15 @@ footer
         color: #5d5e62;
     }
 
+    .main-background-text-wrap
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 85vh;
+    }
+
     .main-background-text
     {
         background-color: rgba(39, 41, 43, 0);
@@ -281,15 +295,6 @@ footer
         height: 20vw;
         display: flex;
         justify-content: center;
-    }
-
-    .main-background-text-wrap
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100vw;
-        height: 85vh;
     }
 
     h1.title-text {

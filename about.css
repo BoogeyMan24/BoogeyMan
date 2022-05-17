@@ -242,7 +242,7 @@ footer
 
     body {
         background-color: black;
-        background-image: url('images/susspace.png');
+        background-image: url('images/susplanet-mobile.png');
         background-size: cover;
         background-position: center;
         height: 90vh;
@@ -252,7 +252,7 @@ footer
 
     .header-wrap
     {
-        padding-left: 20px;
+        padding-left: 5px;
     }
 
     header {
@@ -261,7 +261,7 @@ footer
         position: sticky;
         top: 5px;
         height: 5.5vh;
-        width: 100%;
+        width: 98%;
         border-radius: 4000px;
         display: flex;
         justify-content: center;
@@ -276,19 +276,6 @@ footer
         color: #5d5e62;
     }
 
-    .main-background-text
-    {
-        background-color: rgba(39, 41, 43, 0);
-        box-shadow: 0 0 0 10px rgba(19, 19, 19, 0);
-        position: relative;
-        border-radius: 10vw;
-        top: -5vw;
-        width: 65vw;
-        height: 20vw;
-        display: flex;
-        justify-content: center;
-    }
-
     .main-background-text-wrap
     {
         display: flex;
@@ -296,38 +283,74 @@ footer
         align-items: center;
         width: 100vw;
         height: 85vh;
-    }
-
-    h1.title-text {
-        text-align: center;
-        position: relative;
-        top: -19vw;
-        font-size: 15vw;
-        margin: -33vw;
         padding: 0;
     }
 
-    h2.main-h2 {
+    .main-background-text
+    {
+        background-color: rgba(39, 41, 43, 0);
+        box-shadow: 0 0 0 10px rgba(19, 19, 19, 0);
+        position: relative;
+        border-radius: 10vw;
+        top: -60vw;
+        width: 65vw;
+        height: 20vw;
+    }
+
+    .title-text {
+        text-align: center;
+        position: relative;
+        font-size: 14vw;
+        top: 0;
+        padding: 0;
+        
+    }
+
+    .main-h2-wrap {
         text-align: center;
         position: relative;
         font-size: 5vw;
-        top: 14vw;
+        color: rgb(162, 162, 162);
+        top: 7vw;
+
+    }
+
+    .main-h2 {
+        text-align: center;
+        position: relative;
+        font-size: 5vw;
+        color: rgb(162, 162, 162);
+        top: 0.5vw;
+    }
+
+    a.fancy-link
+    {
+        position: relative;
+        text-decoration: none;
+        left: 0vw;
+        font-size: 5vw;
         color: rgb(162, 162, 162);
     }
 
-    /*
-    .amongus
+    a.fancy-link
     {
-        background-image: none;
-        background-size: cover;
-        background-repeat: no-repeat;
-        position: absolute;
-        top: -5vw;
-        left: -2vw;
-        width: 12vw;
-        height: 12vw;
+        background-image:
+            linear-gradient(
+                transparent 2px,
+                #5536c0 1px,
+                #5536c0 5px,
+                /* #602baa 2px,
+                    #602baa 4px, */
+                transparent 4px
+            ),
+            linear-gradient(
+                transparent 2px,
+                rgb(162, 162, 162) 1px,
+                rgb(162, 162, 162) 5px,
+                transparent 4px
+            );
     }
-    */
+
 
     .footer
     {
