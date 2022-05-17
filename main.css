@@ -46,6 +46,7 @@ header {
     top: 1vw;
     width: 95%;
     padding-right: 20px;
+    z-index: 100;
     border-radius: 100vw;
 }
 nav ul {
@@ -133,7 +134,7 @@ h2.main-h2 {
     left: -2vw;
     width: 10vw;
     height: 12vw;
-    z-index: 100;
+    z-index: 1;
 }
 
 .credits-text-wrap
@@ -248,7 +249,7 @@ footer
 
     body {
         background-color: black;
-        background-image: url('images/susplanet-mobile.png');
+        background-image: url('images/susspace.png');
         background-size: cover;
         background-position: center;
         height: 90vh;
