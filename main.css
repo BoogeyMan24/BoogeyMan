@@ -33,11 +33,12 @@ body {
 
 .header-wrap
 {
-    padding-right: 15px;
+    padding-left: 5px;
     display: flex;
     justify-content: center;
     justify-items: center;
 }
+
 header {
     position: fixed;
     background-color: #1c1e1f;
@@ -45,7 +46,6 @@ header {
     height: max(5.5vh, 24px);
     top: 1vw;
     width: 95%;
-    padding-right: 20px;
     z-index: 100;
     border-radius: 100vw;
 }
@@ -241,7 +241,7 @@ footer
 
     body {
         background-color: black;
-        background-image: url('images/susspace.png');
+        background-image: url('images/susplanet-mobile.png');
         background-size: cover;
         background-position: center;
         height: 90vh;
@@ -256,7 +256,6 @@ footer
         top: 5px;
         height: 5.5vh;
         width: 100%;
-        padding-right: 20px;
         border-radius: 4000px;
         display: flex;
         justify-content: center;
