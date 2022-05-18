@@ -179,6 +179,17 @@ a.fancy-link:hover {
     }
 }
 
+.dot:after {
+    content: "●";
+    background-color: transparent;
+}
+
+.dot:hover:after
+{
+    content: "☻";
+    font-size: 1.631945vw;
+}
+
 footer
 {
     position: fixed;
