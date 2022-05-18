@@ -1,6 +1,7 @@
 :root
 {
     --background: url('images/susplanet.png');
+    --speed-underline: 0.5s;
     font-family: sans-serif, 'calibri', 'times new roman';
 }
 
@@ -157,7 +158,7 @@ a.fancy-link, a.fancy-link:visited {
       );
     background-size: 0% 6px, 100% 6px;
     background-position: 0 bottom, 0 bottom;
-    transition: background-size 0.7s ease-in-out;
+    transition: background-size var(--speed-underline) ease-in-out;
     background-repeat: no-repeat;
     padding-bottom: 2px;
     border-bottom: 6px solid transparent;
