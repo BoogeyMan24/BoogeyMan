@@ -58,7 +58,7 @@ nav li {
     display: inline-block;
     margin-right: 30px;
 }
-a.nav {
+a.nav-a {
     color: #424347;
     text-decoration: none;
     position: relative;
@@ -66,7 +66,7 @@ a.nav {
     left: 30px;
     font-size: max(4vh, 20px);
 }
-a.nav:hover {
+a.nav-a:hover {
     background-color: black;
     
     /* Create the gradient. */
@@ -188,6 +188,84 @@ a.fancy-link:hover {
 {
     content: "☻";
     font-size: 1.631945vw;
+}
+
+.socials-wrap
+{
+    background-color: #1c1e1f;
+    width: 100%;
+}
+
+.ul-socials
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.il-socials
+{
+    margin-top: 1vh;
+    display: inline-block;
+    margin-right: 5vw;
+}
+
+.button-socials
+{
+    background-color: transparent;
+    border: transparent;
+    color: transparent;
+    position: relative;
+    right: -2.5vw;
+}
+
+.discord
+{ 
+    background-image: url('svg/discord-black.svg');
+    background-size: contain;
+    position: relative;
+    padding: 0;
+    left: 2.5vw;
+    width: 4vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.github
+{ 
+    background-image: url('svg/github.svg');
+    background-size: contain;
+    position: relative;
+    padding: 0;
+    left: 2.5vw;
+    width: 4vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.minecraft
+{ 
+    /* background-image: url('svg/minecraft.svg'); */
+    color: black;
+    background-size: contain;
+    position: relative;
+    padding: 0;
+    left: 2.5vw;
+    width: 4vw;
+    height: 3vw;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.discord:hover
+{
+    background-image: url('svg/discord-blurple.svg');
 }
 
 footer

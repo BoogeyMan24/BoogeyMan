@@ -27,3 +27,21 @@ document.addEventListener('keydown', function(event) {
         document.documentElement.style.setProperty("--speed-underline", "0.9s");
     }   
 });
+
+
+function copyDiscord()
+{
+    navigator.clipboard.writeText("BoogeyMan#6398");
+    alert("Discord username and tag saved to clipboard: BoogeyMan#6398");
+}
+
+function gotoGithub()
+{
+    window.location.href = "https://github.com/BoogeyMan24";
+}
+
+// function copyMinecraft()
+// {
+//     navigator.clipboard.writeText("BoogeyMan24");
+//     alert("Minecraft user saved to clipboard: BoogeyMan24");
+// }
