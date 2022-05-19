@@ -1,3 +1,37 @@
+window.onload = function()
+{
+    let github = document.getElementById("github");
+    let discord = document.getElementById("discord");
+
+    github.addEventListener("mouseover", function(event)
+    {
+        let backgroundNum = Math.floor(Math.random() * (101 - 1) + 1);
+        if(backgroundNum == 1)
+        {
+            event.target.style.backgroundImage = "url('svg/github-evil.svg')";
+        }
+        else if(backgroundNum > 1)
+        {
+            event.target.style.backgroundImage = "url('svg/github-white.svg')";
+        }
+    })
+
+    github.addEventListener("mouseleave", function(event)
+    {
+        event.target.style.backgroundImage = "url('svg/github-black.svg')";
+    })
+
+    discord.addEventListener("mouseover", function(event)
+    {
+        event.target.style.backgroundImage = "url('svg/discord-blurple.svg')";
+    })
+
+    discord.addEventListener("mouseleave", function(event)
+    {
+        event.target.style.backgroundImage = "url('svg/discord-black.svg')";
+    })
+}
+
 document.addEventListener('keydown', function(event) {
     if(event.key == "1") {
         document.documentElement.style.setProperty("--speed-underline", "0.1s");

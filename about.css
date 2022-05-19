@@ -263,7 +263,7 @@ a.fancy-link:hover {
     border: none;
 }
 
-.github:hover
+/* .github:hover
 {
     background-image: url('svg/github-white.svg');
 }
@@ -271,7 +271,7 @@ a.fancy-link:hover {
 .discord:hover
 {
     background-image: url('svg/discord-blurple.svg');
-}
+} */
 
 footer
 {
