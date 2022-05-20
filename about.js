@@ -9,6 +9,11 @@ window.onload = function()
         if(backgroundNum == 1)
         {
             event.target.style.backgroundImage = "url('svg/github-evil.svg')";
+            const d = new Date();
+            let expireDays = 5000;
+            d.setTime(d.getTime() + (expireDays*1000*60*60*24));
+            let expires = "expires="+ d.toUTCString();
+            document.cookie = "evil=yes; " + expires + "; path=/achievements.html";
         }
         else if(backgroundNum > 1)
         {
@@ -40,7 +45,11 @@ window.onload = function()
             timeoutId = window.setTimeout(function() {
                 timeoutId = null;
                 background.style.setProperty('--background', "url('images/discord-background.jpg')");
-                
+                const d = new Date();
+                let expireDays = 5000;
+                d.setTime(d.getTime() + (expireDays*1000*60*60*24));
+                let expires = "expires="+ d.toUTCString();
+                document.cookie = "discord=yes; " + expires + "; path=/achievements.html";
             }, 1000 * 60 * 10);
         }
     },
