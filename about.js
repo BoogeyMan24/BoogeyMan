@@ -30,6 +30,29 @@ window.onload = function()
     {
         event.target.style.backgroundImage = "url('svg/discord-black.svg')";
     })
+
+    const background = document.getElementById('background');
+    const discordText = document.getElementById('background');
+
+    var timeoutId;
+    $("#discord").hover(function() {
+        if (!timeoutId) {
+            timeoutId = window.setTimeout(function() {
+                timeoutId = null;
+                background.style.setProperty('--background', "url('images/discord-background.jpg')");
+                
+            }, 1000 * 60 * 10);
+        }
+    },
+    function () {
+        if (timeoutId) {
+            window.clearTimeout(timeoutId);
+            timeoutId = null;
+        }
+        else {
+            background.style.setProperty('--background', "url('images/susplanet.png')");
+        }
+    });
 }
 
 document.addEventListener('keydown', function(event) {
@@ -61,7 +84,6 @@ document.addEventListener('keydown', function(event) {
         document.documentElement.style.setProperty("--speed-underline", "0.9s");
     }   
 });
-
 
 function copyDiscord()
 {

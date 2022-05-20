@@ -5,7 +5,8 @@ let intLetter = 0;
 
 
 window.onload = function(){
-    console.log("credits for no reason: 疯子鸭 (Fengzi)")
+    console.log("credits for no reason: 疯子鸭 (Fengzi)");
+    console.log('credits for some reason: VRUM VRUM CAR (IAMACAR) backwords "live" github (evil github)')
 
     const background = document.getElementById('background');
 
